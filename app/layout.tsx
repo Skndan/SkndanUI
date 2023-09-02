@@ -1,3 +1,4 @@
+import { ThemeProvider } from '@/contexts/ThemeProvider'
 import './globals.css'
 import type { Metadata } from 'next'
 import { Urbanist } from 'next/font/google'
@@ -17,11 +18,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={urbanist.className}>
-        {/* <ProgressBarProvider>
-        <ThemeProvider attribute="class" defaultTheme="system" enableSystem> */}
+        {/* <ProgressBarProvider>*/}
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem> 
         {children}
-        {/* </ThemeProvider>
-      </ProgressBarProvider> */}
+        </ThemeProvider>
+    {/*   </ProgressBarProvider> */}
       </body>
     </html>
   )
