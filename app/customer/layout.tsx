@@ -4,10 +4,10 @@ import ThemeModeToggle from '@/components/common/theme-mode-toggle';
 import '../globals.css';
 import type { Metadata } from 'next';
 import { Urbanist } from 'next/font/google';
-import { UserNav } from '../../components/dashboard/user-nav';
 import MainNav from '@/components/navigation/top-menu';
 import { dashboardConfig } from '@/config/dashboard';
 import SidebarNav from '@/components/navigation/side-menu';
+import { UserNav } from '@/components/dashboard/user-nav';
 
 const urbanist = Urbanist({ subsets: ['latin'] });
 

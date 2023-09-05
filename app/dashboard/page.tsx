@@ -13,8 +13,8 @@ import {
   TabsList,
   TabsTrigger,
 } from "@/components/ui/tabs"
-import { Overview } from "@/app/dashboard/components/overview"
-import { RecentSales } from "@/app/dashboard/components/recent-sales"
+import { Overview } from "@/components/dashboard/overview"
+import { RecentSales } from "@/components/dashboard/recent-sales"
 
 export const metadata: Metadata = {
   title: "Dashboard",
